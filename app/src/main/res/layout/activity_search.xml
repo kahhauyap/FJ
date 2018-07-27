@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fj.foodjunkies.Search"
+    android:background="@drawable/welcome_background">
+
+    <ImageView
+        android:id="@+id/whiteBackground"
+        android:layout_width="398dp"
+        android:layout_height="342dp"
+        android:alpha=".7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.41"
+        app:srcCompat="@android:color/background_dark" />
+
+    <EditText
+        android:id="@+id/editSearch"
+        android:layout_width="210dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="200dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="   Search"
+        android:inputType="textPersonName"
+        app:layout_constraintHorizontal_bias="0.344"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/searchButton"
+        android:layout_width="64dp"
+        android:layout_height="44dp"
+        android:layout_marginRight="28dp"
+        android:background="#80000000"
+        android:backgroundTint="#80000000"
+        android:visibility="visible"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editSearch"
+        app:layout_constraintTop_toTopOf="@+id/editSearch"
+        app:srcCompat="@drawable/search" />
+
+    <ImageView
+        android:id="@+id/blackBar"
+        android:layout_width="386dp"
+        android:layout_height="48dp"
+        android:alpha=".5"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/whiteBackground"
+        app:srcCompat="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/textSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Search a Dish"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/blackBar" />
+
+</android.support.constraint.ConstraintLayout>
