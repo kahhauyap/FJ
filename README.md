@@ -9,7 +9,7 @@ Login credentials are stored on a MySQL database hosted by Amazon Web Services. 
 <img src="https://github.com/kahhauyap/FoodJunkies/blob/master/screen%20shots/Login.png" width="450" height="790">
 
 # Cuisine Quiz
-If it is the user's first time, upon registering they are brought to the Cuisine Quiz used to determine the user's initial cuisine preferences. The quiz is designed similar to Tinder's card swipes to introduce a more fun and interactive feature. 
+If it is the user's first time, upon registering they are brought to the Cuisine Quiz used to determine the user's initial cuisine preferences. The quiz is designed similar to Tinder's card swipes to introduce a more fun and interactive feature. Similarly, swiping left dislikes the cuisine and swiping right likes it.
 
 <img src="https://github.com/kahhauyap/FoodJunkies/blob/master/screen%20shots/Tinder.png" width="450" height="790">
 
@@ -20,6 +20,7 @@ After the user completes the cuisine quiz they are brought to the Constraints se
 
 # Recommendations
 Dish recommendations are based on an algorithm which determines how likely a dish from a cuisine will be recommended. The initial Cuisine Quiz will provide a base for the recommendations, and as the user continues to visit new restaurants and try new dishes the algorithm will allow for more personalized recommendations. The user has the option to roll for a new dish, or dislike them as well.
+
 <img src="https://github.com/kahhauyap/FoodJunkies/blob/master/screen%20shots/Recommendations.png" width="450" height="790">
 
 # Display Restaurant
