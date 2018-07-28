@@ -26,7 +26,20 @@ Dish recommendations are based on an algorithm which determines how likely a dis
 # Display Restaurant
 When the user selects a dish, they will be shown the top 3 restaurants in the area that match the Budget, Time, and Distance constraints. Yelp's Fusion API is utilized to fetch a list of restaurants meeting the criteria, and is trimmed down to just 3 to reduce user's decision making.
 
+<img src="https://github.com/kahhauyap/FoodJunkies/blob/master/screen%20shots/DisplayRestaurant.png" width="450" height="790">
 <img src="https://github.com/kahhauyap/FoodJunkies/blob/master/screen%20shots/RestrauntDetails.png" width="450" height="790">
+
+
+# Ratings
+When users visit a restaurant serving the recommended dish, the user can then go back to it and rate both the dish and restaurant. The feedback is used to either stop recommending the dish and lower cuisine rating, or increase them if the user had a good experience.
+
+<img src="https://github.com/kahhauyap/FoodJunkies/blob/master/screen%20shots/Ratings.png" width="450" height="790">
+
+# Search
+Sometimes people are just really craving something, there is a search feature that allows users to search by cuisines or foods if they're not up for trying something new.
+
+<img src="https://github.com/kahhauyap/FoodJunkies/blob/master/screen%20shots/Search.png" width="450" height="790">
+
 
 
 
